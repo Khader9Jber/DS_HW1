@@ -1,0 +1,13 @@
+Q4:
+Suppose Alice has picked three distinct integers and placed them into a stack S in random order.
+Write a short, straight line piece of pseudocode (with no loops or recursion) that uses only one
+comparison and only one variable x, yet that results in variable x storing the largest of Alice’s three
+integers with probability 2/3
+
+ANS:
+
+result = (stack.pop() < stack.top())? result = stack.pop(): pass;
+
+We compare the first to numbers from the top.
+then we compare the largest between these two numbers with the third number.
+(The percentage is 2/3).
